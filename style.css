@@ -134,16 +134,33 @@
   p {
     font-size: 14px;
     line-height: 22px;
-    padding: 10;
+    padding-bottom: 30px;
+    padding-top: 20px;
     font-weight: 300;
   }
   
   .row {
-    margin-top: 5%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
   }
   
+  .row2 {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .intro-col {
+    flex-basis: 31%;
+    background: rgb(140, 208, 169);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+
   .about-col {
     flex-basis: 31%;
     background: rgb(188, 198, 233);
